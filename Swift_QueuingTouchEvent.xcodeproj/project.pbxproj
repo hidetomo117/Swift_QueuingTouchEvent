@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		564A4281231F733800D9752D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A4280231F733800D9752D /* AppDelegate.swift */; };
-		564A4283231F733800D9752D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A4282231F733800D9752D /* ViewController.swift */; };
+		564A4283231F733800D9752D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A4282231F733800D9752D /* MainViewController.swift */; };
 		564A4286231F733800D9752D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564A4284231F733800D9752D /* Main.storyboard */; };
 		564A4288231F733900D9752D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 564A4287231F733900D9752D /* Assets.xcassets */; };
 		564A428B231F733900D9752D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564A4289231F733900D9752D /* LaunchScreen.storyboard */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		564A427D231F733800D9752D /* Swift_QueuingTouchEvent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_QueuingTouchEvent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		564A4280231F733800D9752D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		564A4282231F733800D9752D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		564A4282231F733800D9752D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		564A4285231F733800D9752D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		564A4287231F733900D9752D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		564A428A231F733900D9752D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,12 +97,8 @@
 		564A427F231F733800D9752D /* Swift_QueuingTouchEvent */ = {
 			isa = PBXGroup;
 			children = (
-				564A4280231F733800D9752D /* AppDelegate.swift */,
-				564A4282231F733800D9752D /* ViewController.swift */,
-				564A4284231F733800D9752D /* Main.storyboard */,
-				564A4287231F733900D9752D /* Assets.xcassets */,
-				564A4289231F733900D9752D /* LaunchScreen.storyboard */,
-				564A428C231F733900D9752D /* Info.plist */,
+				564A42AF231F740A00D9752D /* ViewController */,
+				564A42AE231F73C300D9752D /* Other */,
 			);
 			path = Swift_QueuingTouchEvent;
 			sourceTree = "<group>";
@@ -123,6 +119,42 @@
 				564A42A2231F733900D9752D /* Info.plist */,
 			);
 			path = Swift_QueuingTouchEventUITests;
+			sourceTree = "<group>";
+		};
+		564A42AE231F73C300D9752D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				564A428C231F733900D9752D /* Info.plist */,
+				564A4280231F733800D9752D /* AppDelegate.swift */,
+				564A4287231F733900D9752D /* Assets.xcassets */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		564A42AF231F740A00D9752D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				564A42B1231F742600D9752D /* Main */,
+				564A42B0231F741300D9752D /* Launch */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		564A42B0231F741300D9752D /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				564A4289231F733900D9752D /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		564A42B1231F742600D9752D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				564A4282231F733800D9752D /* MainViewController.swift */,
+				564A4284231F733800D9752D /* Main.storyboard */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				564A4283231F733800D9752D /* ViewController.swift in Sources */,
+				564A4283231F733800D9752D /* MainViewController.swift in Sources */,
 				564A4281231F733800D9752D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,7 +466,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9LY3B67W33;
-				INFOPLIST_FILE = Swift_QueuingTouchEvent/Info.plist;
+				INFOPLIST_FILE = Swift_QueuingTouchEvent/Other/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +484,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9LY3B67W33;
-				INFOPLIST_FILE = Swift_QueuingTouchEvent/Info.plist;
+				INFOPLIST_FILE = Swift_QueuingTouchEvent/Other/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
