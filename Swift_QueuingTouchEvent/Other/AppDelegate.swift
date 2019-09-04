@@ -8,13 +8,14 @@
 
 import UIKit
 
-@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        addNotification()
+        
         return true
     }
 
@@ -31,6 +32,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationWillTerminate(_ application: UIApplication) {
+    }
+}
+
+private extension AppDelegate {
+    
+    private func addNotification() {
+        NotificationCenter.default.addObserver(self,
+                                               selector: #selector(printMessage(notification:)),
+                                               name: .ncTouchesBegan,
+                                               object: nil)
+    }
+    
+    @objc
+    private func printMessage(notification: Notification) {
+        print("called")
     }
 }
 
