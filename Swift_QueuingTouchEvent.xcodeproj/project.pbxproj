@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		564A4281231F733800D9752D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A4280231F733800D9752D /* AppDelegate.swift */; };
+		564A4283231F733800D9752D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A4282231F733800D9752D /* ViewController.swift */; };
+		564A4286231F733800D9752D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564A4284231F733800D9752D /* Main.storyboard */; };
+		564A4288231F733900D9752D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 564A4287231F733900D9752D /* Assets.xcassets */; };
+		564A428B231F733900D9752D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564A4289231F733900D9752D /* LaunchScreen.storyboard */; };
+		564A4296231F733900D9752D /* Swift_QueuingTouchEventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A4295231F733900D9752D /* Swift_QueuingTouchEventTests.swift */; };
+		564A42A1231F733900D9752D /* Swift_QueuingTouchEventUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 564A42A0231F733900D9752D /* Swift_QueuingTouchEventUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		564A4292231F733900D9752D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 564A4275231F733800D9752D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 564A427C231F733800D9752D;
+			remoteInfo = Swift_QueuingTouchEvent;
+		};
+		564A429D231F733900D9752D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 564A4275231F733800D9752D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 564A427C231F733800D9752D;
+			remoteInfo = Swift_QueuingTouchEvent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		564A427D231F733800D9752D /* Swift_QueuingTouchEvent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_QueuingTouchEvent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		564A4280231F733800D9752D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		564A4282231F733800D9752D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		564A4285231F733800D9752D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		564A4287231F733900D9752D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		564A428A231F733900D9752D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		564A428C231F733900D9752D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		564A4291231F733900D9752D /* Swift_QueuingTouchEventTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_QueuingTouchEventTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		564A4295231F733900D9752D /* Swift_QueuingTouchEventTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_QueuingTouchEventTests.swift; sourceTree = "<group>"; };
+		564A4297231F733900D9752D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		564A429C231F733900D9752D /* Swift_QueuingTouchEventUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_QueuingTouchEventUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		564A42A0231F733900D9752D /* Swift_QueuingTouchEventUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_QueuingTouchEventUITests.swift; sourceTree = "<group>"; };
+		564A42A2231F733900D9752D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		564A427A231F733800D9752D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564A428E231F733900D9752D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564A4299231F733900D9752D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		564A4274231F733800D9752D = {
+			isa = PBXGroup;
+			children = (
+				564A427F231F733800D9752D /* Swift_QueuingTouchEvent */,
+				564A4294231F733900D9752D /* Swift_QueuingTouchEventTests */,
+				564A429F231F733900D9752D /* Swift_QueuingTouchEventUITests */,
+				564A427E231F733800D9752D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		564A427E231F733800D9752D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				564A427D231F733800D9752D /* Swift_QueuingTouchEvent.app */,
+				564A4291231F733900D9752D /* Swift_QueuingTouchEventTests.xctest */,
+				564A429C231F733900D9752D /* Swift_QueuingTouchEventUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		564A427F231F733800D9752D /* Swift_QueuingTouchEvent */ = {
+			isa = PBXGroup;
+			children = (
+				564A4280231F733800D9752D /* AppDelegate.swift */,
+				564A4282231F733800D9752D /* ViewController.swift */,
+				564A4284231F733800D9752D /* Main.storyboard */,
+				564A4287231F733900D9752D /* Assets.xcassets */,
+				564A4289231F733900D9752D /* LaunchScreen.storyboard */,
+				564A428C231F733900D9752D /* Info.plist */,
+			);
+			path = Swift_QueuingTouchEvent;
+			sourceTree = "<group>";
+		};
+		564A4294231F733900D9752D /* Swift_QueuingTouchEventTests */ = {
+			isa = PBXGroup;
+			children = (
+				564A4295231F733900D9752D /* Swift_QueuingTouchEventTests.swift */,
+				564A4297231F733900D9752D /* Info.plist */,
+			);
+			path = Swift_QueuingTouchEventTests;
+			sourceTree = "<group>";
+		};
+		564A429F231F733900D9752D /* Swift_QueuingTouchEventUITests */ = {
+			isa = PBXGroup;
+			children = (
+				564A42A0231F733900D9752D /* Swift_QueuingTouchEventUITests.swift */,
+				564A42A2231F733900D9752D /* Info.plist */,
+			);
+			path = Swift_QueuingTouchEventUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		564A427C231F733800D9752D /* Swift_QueuingTouchEvent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564A42A5231F733900D9752D /* Build configuration list for PBXNativeTarget "Swift_QueuingTouchEvent" */;
+			buildPhases = (
+				564A4279231F733800D9752D /* Sources */,
+				564A427A231F733800D9752D /* Frameworks */,
+				564A427B231F733800D9752D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swift_QueuingTouchEvent;
+			productName = Swift_QueuingTouchEvent;
+			productReference = 564A427D231F733800D9752D /* Swift_QueuingTouchEvent.app */;
+			productType = "com.apple.product-type.application";
+		};
+		564A4290231F733900D9752D /* Swift_QueuingTouchEventTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564A42A8231F733900D9752D /* Build configuration list for PBXNativeTarget "Swift_QueuingTouchEventTests" */;
+			buildPhases = (
+				564A428D231F733900D9752D /* Sources */,
+				564A428E231F733900D9752D /* Frameworks */,
+				564A428F231F733900D9752D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				564A4293231F733900D9752D /* PBXTargetDependency */,
+			);
+			name = Swift_QueuingTouchEventTests;
+			productName = Swift_QueuingTouchEventTests;
+			productReference = 564A4291231F733900D9752D /* Swift_QueuingTouchEventTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		564A429B231F733900D9752D /* Swift_QueuingTouchEventUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564A42AB231F733900D9752D /* Build configuration list for PBXNativeTarget "Swift_QueuingTouchEventUITests" */;
+			buildPhases = (
+				564A4298231F733900D9752D /* Sources */,
+				564A4299231F733900D9752D /* Frameworks */,
+				564A429A231F733900D9752D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				564A429E231F733900D9752D /* PBXTargetDependency */,
+			);
+			name = Swift_QueuingTouchEventUITests;
+			productName = Swift_QueuingTouchEventUITests;
+			productReference = 564A429C231F733900D9752D /* Swift_QueuingTouchEventUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		564A4275231F733800D9752D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Hidetomo Masuda";
+				TargetAttributes = {
+					564A427C231F733800D9752D = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					564A4290231F733900D9752D = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 564A427C231F733800D9752D;
+					};
+					564A429B231F733900D9752D = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 564A427C231F733800D9752D;
+					};
+				};
+			};
+			buildConfigurationList = 564A4278231F733800D9752D /* Build configuration list for PBXProject "Swift_QueuingTouchEvent" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 564A4274231F733800D9752D;
+			productRefGroup = 564A427E231F733800D9752D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				564A427C231F733800D9752D /* Swift_QueuingTouchEvent */,
+				564A4290231F733900D9752D /* Swift_QueuingTouchEventTests */,
+				564A429B231F733900D9752D /* Swift_QueuingTouchEventUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		564A427B231F733800D9752D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564A428B231F733900D9752D /* LaunchScreen.storyboard in Resources */,
+				564A4288231F733900D9752D /* Assets.xcassets in Resources */,
+				564A4286231F733800D9752D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564A428F231F733900D9752D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564A429A231F733900D9752D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		564A4279231F733800D9752D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564A4283231F733800D9752D /* ViewController.swift in Sources */,
+				564A4281231F733800D9752D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564A428D231F733900D9752D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564A4296231F733900D9752D /* Swift_QueuingTouchEventTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564A4298231F733900D9752D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564A42A1231F733900D9752D /* Swift_QueuingTouchEventUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		564A4293231F733900D9752D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 564A427C231F733800D9752D /* Swift_QueuingTouchEvent */;
+			targetProxy = 564A4292231F733900D9752D /* PBXContainerItemProxy */;
+		};
+		564A429E231F733900D9752D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 564A427C231F733800D9752D /* Swift_QueuingTouchEvent */;
+			targetProxy = 564A429D231F733900D9752D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		564A4284231F733800D9752D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				564A4285231F733800D9752D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		564A4289231F733900D9752D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				564A428A231F733900D9752D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		564A42A3231F733900D9752D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		564A42A4231F733900D9752D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		564A42A6231F733900D9752D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LY3B67W33;
+				INFOPLIST_FILE = Swift_QueuingTouchEvent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hidetomo-Masuda.Swift-QueuingTouchEvent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		564A42A7231F733900D9752D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LY3B67W33;
+				INFOPLIST_FILE = Swift_QueuingTouchEvent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hidetomo-Masuda.Swift-QueuingTouchEvent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		564A42A9231F733900D9752D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LY3B67W33;
+				INFOPLIST_FILE = Swift_QueuingTouchEventTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hidetomo-Masuda.Swift-QueuingTouchEventTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift_QueuingTouchEvent.app/Swift_QueuingTouchEvent";
+			};
+			name = Debug;
+		};
+		564A42AA231F733900D9752D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LY3B67W33;
+				INFOPLIST_FILE = Swift_QueuingTouchEventTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hidetomo-Masuda.Swift-QueuingTouchEventTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift_QueuingTouchEvent.app/Swift_QueuingTouchEvent";
+			};
+			name = Release;
+		};
+		564A42AC231F733900D9752D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LY3B67W33;
+				INFOPLIST_FILE = Swift_QueuingTouchEventUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hidetomo-Masuda.Swift-QueuingTouchEventUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Swift_QueuingTouchEvent;
+			};
+			name = Debug;
+		};
+		564A42AD231F733900D9752D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LY3B67W33;
+				INFOPLIST_FILE = Swift_QueuingTouchEventUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hidetomo-Masuda.Swift-QueuingTouchEventUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Swift_QueuingTouchEvent;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		564A4278231F733800D9752D /* Build configuration list for PBXProject "Swift_QueuingTouchEvent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564A42A3231F733900D9752D /* Debug */,
+				564A42A4231F733900D9752D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		564A42A5231F733900D9752D /* Build configuration list for PBXNativeTarget "Swift_QueuingTouchEvent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564A42A6231F733900D9752D /* Debug */,
+				564A42A7231F733900D9752D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		564A42A8231F733900D9752D /* Build configuration list for PBXNativeTarget "Swift_QueuingTouchEventTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564A42A9231F733900D9752D /* Debug */,
+				564A42AA231F733900D9752D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		564A42AB231F733900D9752D /* Build configuration list for PBXNativeTarget "Swift_QueuingTouchEventUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564A42AC231F733900D9752D /* Debug */,
+				564A42AD231F733900D9752D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 564A4275231F733800D9752D /* Project object */;
+}
